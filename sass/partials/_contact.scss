@@ -1,0 +1,221 @@
+.contact {
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height:calc(100vh - 164px);
+  .form {
+    width: 400px;
+    overflow: hidden;
+    display: inline-block;
+    h3 {
+      padding: 0 0 0 40px;
+      width: 360px;
+      font-size: 24px;
+      display: block;
+      font-weight:500;
+      color:#292929;
+      margin: 35px 0 15px;
+      background:url(../images/ico-contact-arr-01.png) 0 50% no-repeat;
+      &:first-child {margin: 0 0 15px;}
+      @media (min-width: 1360px) and (max-width: 1919px) {
+        width: 300px;
+        font-size: 18px;
+      }
+    }
+    .contactForm {
+      display: block;
+      overflow: hidden;
+      padding: 0 0 0 40px;
+      width: 360px;
+      @media (min-width: 1360px) and (max-width: 1919px) {
+        width: 300px;
+      }
+      .row {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin: 0 0 35px;
+        @media (min-width: 1360px) and (max-width: 1919px) {
+          margin: 0 0 23px;
+        }
+        label {
+          float: left;
+          width: 100%;
+          color: #424242;
+          font-size: 18px;
+          text-align: left;
+          padding: 0;
+          @media (min-width: 1360px) and (max-width: 1919px) {
+            font-size: 14px;
+          }
+        }
+        .txt {
+          width: 100%;
+          padding: 10px 0;
+          float: left;
+          font-size: 18px;
+          color: #424242;
+          background: none;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 1px solid #464646;
+          @media (min-width: 1360px) and (max-width: 1919px) {
+            font-size: 14px;
+          }
+        }
+        textarea {
+          margin:20px 0 0;
+          width: 100%;
+          height:20px;
+          padding: 10px 0;
+          float: left;
+          font-size: 18px;
+          color: #424242;
+          resize: none;
+          background: none;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 1px solid #464646;
+          @media (min-width: 1360px) and (max-width: 1919px) {
+            font-size: 14px;
+          }
+        }
+        .cbSubmit {
+          width: 215px;
+          height: 60px;
+          float: left;
+          border: 1px solid #d70037;
+          line-height: 60px;
+          text-align: center;
+          color: #d70037;
+          font-size: 24px;
+          font-weight: 500;
+          cursor: pointer;
+          background-color: #fff;
+          &:hover {
+            color: #fff;
+            background-color: #d70037;
+          }
+          @media (min-width: 1360px) and (max-width: 1919px) {
+            font-size: 18px;
+            width: calc(100% - 2px);
+          }
+        }
+      }
+    }
+  }
+  .map {
+    width: 734px;
+    height: 734px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    background-image:url(../images/bg_map.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    @media (min-width: 1360px) and (max-width: 1919px) {
+      width: 500px;
+      height: 500px;
+      background-size: 500px;
+    }
+    .bg-map {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background-image:url(../images/bg-map-tri.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: scale(1,1);
+
+    }
+  }
+  .info {
+    width: 400px;
+    overflow: hidden;
+    display: inline-block;
+    @media (min-width: 1360px) and (max-width: 1919px) {
+      width: 360px;
+      margin: 0 0 0 40px;
+    }
+    h3 {
+      padding: 0 0 0 40px;
+      width: 360px;
+      font-size: 24px;
+      display: block;
+      font-weight:500;
+      color:#292929;
+      margin: 35px 0 15px;
+      background:url(../images/ico-contact-arr-02.png) 0 50% no-repeat;
+      &:first-child {margin: 0 0 15px;}
+      @media (min-width: 1360px) and (max-width: 1919px) {
+        width: 300px;
+        font-size: 18px;
+      }
+    }
+    p {
+      padding: 0 0 0 40px;
+      width: 360px;
+      font-size:18px;
+      display: block;
+      font-weight:400;
+      margin:0 0 5px;
+      color:#292929;
+      &:last-child {margin: 0;}
+      @media (min-width: 1360px) and (max-width: 1919px) {
+        font-size: 14px;
+      }
+    }
+    h4 {
+      padding: 0 0 0 40px;
+      width: 360px;
+      font-size: 18px;
+      margin: 35px 0 15px;
+      display: block;
+      overflow: hidden;
+      font-weight:400;
+      color:#292929;
+      @media (min-width: 1360px) and (max-width: 1919px) {
+        font-size: 14px;
+        width: 300px;
+      }
+    }
+    .soc {
+      padding: 0 0 0 40px;
+      width: 360px;
+      display: block;
+      overflow: hidden;
+      @media (min-width: 1360px) and (max-width: 1919px) {
+        width: 300px;
+      }
+      li {
+        float: left;
+        margin: 0 15px 0 0;
+        width: 26px;
+        height: 26px;
+        opacity: 0.75;
+        a{
+          background-position:0 0;
+          background-repeat: no-repeat;
+          background-size: 26px;
+          width: 26px;
+          height: 26px;
+          margin: 0 auto;
+          display: block;
+          overflow: hidden;
+        }
+        &:hover {opacity: 1;}
+        &.facebook a{background-image: url(../images/ico-fb.png);}
+        &.instagram a{background-image: url(../images/ico-inst.png);}
+        &.youtube a{background-image: url(../images/ico-youtube.png);}
+      }
+    }
+  }
+}

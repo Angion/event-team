@@ -1,0 +1,42 @@
+#footer{
+  height: 52px;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  .copyright {
+    position: relative;
+    padding: 15px 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    .left {
+      width:calc(50% - 20px);
+      padding: 0 20px 0 0;
+      text-align: right;
+      float: left;
+      color: #959595;
+      font-size: 14px;
+    }
+    .right {
+      width:calc(50% - 20px);
+      padding: 0 0 0 20px;
+      text-align: left;
+      float: right;
+      color: #959595;
+      font-size: 14px;
+    }
+    .arrow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 10px;
+      height: 10px;
+      margin: -5px 0 0 -5px;
+      background-image: url(../images/ico-footer-arr.png);
+      background-position:0 0;
+      background-repeat: no-repeat;
+      background-size:10px;
+    }
+  }
+}

@@ -1,0 +1,851 @@
+.main{
+	overflow: visible;
+	}
+.project-calendar{
+	width:1513px;
+	display:block;
+	overflow: visible;
+	position:relative;
+	margin: 0 auto;
+	@media (min-width: 1360px) and (max-width: 1919px) {
+		width: 1070px;
+	}
+	h3 {
+		font-weight: 500;
+		font-size: 36px;
+		text-align: center;
+		width: 100%;
+		display: block;
+		overflow: hidden;
+		margin: 25px 0 130px;
+		color: #353535;
+		@media (min-width: 1360px) and (max-width: 1919px) {
+			font-size: 24px;
+		}
+	}
+	.specialization {
+		display:block;
+		position: absolute;
+		left:0;
+		top: 76px;
+		width:242px;
+		min-height:50px;
+		z-index:10;
+		background: url(../images/right-drop-btn.png) 12px 0 no-repeat;
+		padding: 0 0 0 80px;
+		cursor:pointer;
+		.all-spezies{
+			display:block;
+			margin-bottom: 20px;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 0 60px 0 0;
+			overflow:hidden;
+			padding-top: 15px;
+		}
+	}
+	.active {
+			background: url(../images/active-drop-btn.png) 12px 0 no-repeat;
+		}
+	.drop-left {
+		display: none;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		position: absolute;
+		top:76px;
+		left:0px;
+		border: 1px solid #acacac;
+		width: 262px;
+		background-color: white;
+		height:464px;
+
+		.oncologist {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-first.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(239,0,45,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+
+		}
+		.uro-oncologists {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-second.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(168,52,74,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.gynecologist {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-third.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(204,15,122,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.urologist {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-4.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(90,25,254,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.endocrynologist{
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-5.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(255,186,0,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.lor {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-6.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(45,119,0,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.child-doctor {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-7.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(255,47,86,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.cardio {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-8.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(255,90,0,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.oftalmolog {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-9.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(0,191,255,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.gepatolog {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-10.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(150,0,255,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.gastro {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-11.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(49,205,89,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.family-doc {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-12.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(115,232,0,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+		.farmacevt {
+			width: 100%;
+			display: block;
+			background: url(../images/ico-drop-13.png)0 center no-repeat;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 19px 0 19px 34px;
+			background-color: white;
+			-webkit-transition: all 500ms ease-in-out;
+			-moz-transition: all 500ms ease-in-out;
+		    -o-transition: all 500ms ease-in-out;
+		    transition: all 500ms ease-in-out;
+			&:hover {
+				background-color: rgba(0,168,255,0.3);
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+			}
+			// &:hover {
+			// 	background-color: rgba(0,0,0,0.1);
+			// }
+		}
+	}
+	.countries {
+		display:block;
+		position: absolute;
+		right:0;
+		top: 76px;
+		width:242px;
+		min-height:50px;
+		z-index:10;
+		background: url(../images/right-drop-btn.png) right 0 no-repeat;
+		cursor:pointer;
+		.country-list{
+			display:block;
+			margin-bottom: 20px;
+			font-size: 18px;
+			line-height: 20px;
+			color: #222222;
+			padding: 0 80px 0 0;
+			overflow:hidden;
+			padding-top: 15px;
+			text-align:right;
+			margin-right: 2px;
+		}
+		.drop-right {
+			display: none;
+			overflow-y: scroll;
+			overflow-x:hidden;
+			position: absolute;
+			top:76px;
+			right:-13px;
+			border: 1px solid #acacac;
+			width: 285px;
+			background-color: white;
+			height:464px;
+			li {
+				display:block;
+				padding:20px;
+				background-color: white;
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+				&:hover {
+					background-color: rgba(0,0,0,0.1);
+					-webkit-transition: all 500ms ease-in-out;
+				    -moz-transition: all 500ms ease-in-out;
+				    -o-transition: all 500ms ease-in-out;
+				    transition: all 500ms ease-in-out;
+				}
+				&:first-child {
+					padding:0;
+					&:hover{
+						background-color: transparent;
+					}
+				}
+				input[type='text'] {
+					width:91%;
+					height:46px;
+					font-size: 18px;
+					line-height: 36px;
+					color:#959595;
+					margin: 5px;
+					border-radius: 3px;
+					padding-left: 13px;
+					border: 1px solid #acacac;
+				}
+			}
+		}
+
+	}
+	.active1 {background: url(../images/active-drop-btn.png) right 0 no-repeat;	}
+	ul#calendar-list {
+		width:100%;
+		display:flex;
+		flex-direction: row;
+		flex-wrap:wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		border-left:2px solid #d8d8d8;
+		li {
+			position:relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+			width: 25%;
+			border-right: 2px solid #d8d8d8;
+			border-bottom: 4px solid #d8d8d8;
+			box-sizing:border-box;
+			height: 666px;
+			@media (min-width: 1360px) and (max-width: 1919px) {
+				height: 475px;
+			}
+			&:nth-child(2) {
+				height:889px;
+				border-top: 4px solid #d8d8d8;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					height: 630px;
+				}
+				.img-location {
+					p {
+						position:absolute;
+						left:15px;
+						bottom: 248px;
+						@media (min-width: 1360px) and (max-width: 1919px) {
+							bottom:165px;
+						}
+					}
+					img {
+						position: absolute;
+						left:7px;;
+						bottom:278px;
+						@media (min-width: 1360px) and (max-width: 1919px) {
+							bottom:195px;
+						}
+					}
+				}
+			}
+			&:nth-child(3) {
+				height:889px;
+				border-top: 4px solid #d8d8d8;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					height: 630px;
+				}
+				.img-location {
+					p {
+						position:absolute;
+						left:15px;
+						bottom: 248px;
+						@media (min-width: 1360px) and (max-width: 1919px) {
+							bottom:165px;
+						}
+					}
+					img {
+						position: absolute;
+						left:7px;;
+						bottom:278px;
+						@media (min-width: 1360px) and (max-width: 1919px) {
+							bottom:195px;
+						}
+					}
+				}
+			}
+			&:nth-child(5){
+				span {
+					background: url(../images/ico-drop-second.png)left center no-repeat;
+				}
+			}
+			&:nth-child(5) {
+				.event:hover {
+					background-color: rgba(168,52,74,0.3);
+					-webkit-transition: all 500ms ease-in-out;
+				    -moz-transition: all 500ms ease-in-out;
+				    -o-transition: all 500ms ease-in-out;
+				    transition: all 500ms ease-in-out;
+				}
+			}
+			&:nth-child(6){
+				span {
+					background: url(../images/ico-drop-third.png)left center no-repeat;
+				}
+			}
+			&:nth-child(6) {
+				.event:hover {
+					background-color: rgba(204,15,122,0.3);
+					-webkit-transition: all 500ms ease-in-out;
+				    -moz-transition: all 500ms ease-in-out;
+				    -o-transition: all 500ms ease-in-out;
+				    transition: all 500ms ease-in-out;
+				}
+			}
+			&:nth-child(8){
+				span {
+					background: url(../images/ico-drop-11.png)left center no-repeat;
+				}
+			}
+			&:nth-child(8) {
+				.event:hover {
+					background-color: rgba(51,187,57,0.3);
+					-webkit-transition: all 500ms ease-in-out;
+				    -moz-transition: all 500ms ease-in-out;
+				    -o-transition: all 500ms ease-in-out;
+				    transition: all 500ms ease-in-out;
+				}
+			}
+			&:nth-child(10){
+				span {
+					background: url(../images/ico-drop-5.png)left center no-repeat;
+				}
+			}
+			&:nth-child(10) {
+				.event:hover {
+					background-color: rgba(254,209,0,0.3);
+					-webkit-transition: all 500ms ease-in-out;
+				    -moz-transition: all 500ms ease-in-out;
+				    -o-transition: all 500ms ease-in-out;
+				    transition: all 500ms ease-in-out;
+				}
+			}
+			&:nth-child(11){
+				span {
+					background: url(../images/ico-drop-9.png)left center no-repeat;
+				}
+			}
+			&:nth-child(11) {
+				.event:hover {
+					background-color: rgba(0,204,255,0.3);
+					-webkit-transition: all 500ms ease-in-out;
+				    -moz-transition: all 500ms ease-in-out;
+				    -o-transition: all 500ms ease-in-out;
+				    transition: all 500ms ease-in-out;
+				}
+			}
+			.date {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				width: 100%;
+				margin-bottom: 25px;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					margin-bottom: 5px;
+				}
+				p {
+					padding-left: 16px;
+					padding-top: 13px;
+					font-size: 36px;
+					line-height: 20px;
+					color: #b6b5b5;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						font-size: 25px;
+					}
+				}
+				img {
+					padding-right: 16px;
+					padding-top: 13px;
+				}
+			}
+			span {
+				display:block;
+				background: url(../images/ico-drop-first.png)left center no-repeat;
+				padding: 13px 0 16px 37px;
+				font-size: 18px;
+				color: #222222;
+				line-height: 20px;
+				margin-bottom:34px;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					margin-bottom:5px;
+				}
+			}
+			.event {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: flex-start;
+				width: 100%;
+				margin-bottom: 45px;
+				padding-left: 15px;
+				padding-top:15px;
+				padding-bottom: 15px;
+				background-color:transparent;
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+				box-sizing:border-box;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					margin-bottom:20px;
+				}
+				.event-name {
+					text-transform: uppercase;
+					font-size: 24px;
+					line-height: 20px;
+					margin-bottom: 15px;
+					border-bottom: 1px solid #9b9b9b;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						margin-bottom:5px;
+						font-size: 18px;
+						border-bottom:none;
+					}
+				}
+				a {
+					color: #1f1c1d;
+					text-decoration:underline;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						border-bottom:none;
+					}
+				}
+			}
+			.event:hover {
+					background-color: rgba(239,0,45,0.3);
+					-webkit-transition: all 500ms ease-in-out;
+					-moz-transition: all 500ms ease-in-out;
+				    -o-transition: all 500ms ease-in-out;
+				    transition: all 500ms ease-in-out;
+				}
+			.deadline {
+				font-size: 18px;
+				line-height:20px;
+				color: #f50202;
+				margin-left: 15px;
+				margin-bottom: 50px;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					margin-bottom:5px;
+					font-size: 14px;
+				}
+				p.deadline-date {
+					display:block;
+					padding-top: 17px;
+				}
+			}
+			.img-location {
+				p {
+					font-size: 18px;
+					line-height: 20px;
+					color: #222222;
+					position:absolute;
+					left:15px;
+					bottom: 30px;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						font-size: 14px;
+						font-weight: 500;
+						bottom: 15px;
+					}
+				}
+				img {
+					position:absolute;
+					left:7px;
+					bottom:60px;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						width:calc(100% - 20px);
+						bottom: 40px;
+					}
+				}
+			}
+		}
+		.first-item {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+			width: 50%;
+			border-right: 2px solid #d8d8d8;
+			border-top: 4px solid #ef002d;
+			height: 889px;
+			@media (min-width: 1360px) and (max-width: 1919px) {
+				height: 630px;
+			}
+			.date {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				width: 100%;
+				margin-bottom: 25px;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					margin-bottom:5px;
+				}
+				p {
+					padding-left: 16px;
+					padding-top: 13px;
+					font-size: 36px;
+					line-height: 20px;
+					color: #b6b5b5;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						font-size: 25px;
+					}
+				}
+				img {
+					padding-right: 16px;
+					padding-top: 13px;
+				}
+			}
+			span {
+				display:block;
+				background: url(../images/ico-drop-first.png)left center no-repeat;
+				padding: 13px 0 16px 37px;
+				font-size: 18px;
+				color: #222222;
+				line-height: 20px;
+				margin-bottom:34px;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					margin-bottom:5px;
+				}
+			}
+			.event {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: flex-start;
+				width: 100%;
+				margin-bottom: 45px;
+				padding-left: 15px;
+				padding-top:15px;
+				padding-bottom: 15px;
+				background-color:transparent;
+				-webkit-transition: all 500ms ease-in-out;
+				-moz-transition: all 500ms ease-in-out;
+			    -o-transition: all 500ms ease-in-out;
+			    transition: all 500ms ease-in-out;
+				box-sizing:border-box;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					margin-bottom:20px;
+				}
+				.event-name {
+					text-transform: uppercase;
+					font-size: 24px;
+					line-height: 20px;
+					margin-bottom: 15px;
+					border-bottom: 1px solid #9b9b9b;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						margin-bottom:5px;
+						font-size: 18px;
+						border-bottom:none;
+					}
+				}
+				a {
+					color: #1f1c1d;
+					border-bottom: 1px solid #d6d6d6;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						border-bottom:none;
+					}
+				}
+			}
+			.event:hover {
+					background-color: rgba(239,0,45,0.3);
+					-webkit-transition: all 500ms ease-in-out;
+					-moz-transition: all 500ms ease-in-out;
+				    -o-transition: all 500ms ease-in-out;
+				    transition: all 500ms ease-in-out;
+				}
+			.deadline {
+				font-size: 18px;
+				line-height:20px;
+				color: #f50202;
+				margin-left: 15px;
+				margin-bottom: 50px;
+				@media (min-width: 1360px) and (max-width: 1919px) {
+					margin-bottom:5px;
+					font-size: 14px;
+				}
+				p.deadline-date {
+					display:block;
+					padding-top: 17px;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						padding-top: 5px;
+					}
+				}
+			}
+			.img-location {
+				p {
+					font-size: 18px;
+					line-height: 20px;
+					color: #222222;
+					position:absolute;
+					left:15px;
+					bottom: 30px;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						font-size: 14px;
+						font-weight: 500;
+						bottom: 15px;
+					}
+				}
+				img {
+					position:absolute;
+					left:10px;
+					bottom:60px;
+					@media (min-width: 1360px) and (max-width: 1919px) {
+						width:calc(100% - 20px);
+						bottom: 40px;
+					}
+				}
+			}
+		}
+	}
+}

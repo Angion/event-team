@@ -1,0 +1,27 @@
+.notfound {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 112px);
+  display: block;
+  overflow: hidden;
+  background-image: url(../images/img-404.png);
+  background-repeat: no-repeat;
+  background-position:50% 100%;
+  background-size: 65% 90%;
+  @media (min-width: 1360px) and (max-width: 1919px) {
+    background-size: 70% 90%;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 25px 0 50px;
+    color:#353535;
+    @media (min-width: 1360px) and (max-width: 1919px) {
+      font-size:24px;
+    }
+  }
+}
